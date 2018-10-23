@@ -1,0 +1,100 @@
+{
+  "_from": "react-native-confirmation-code-field",
+  "_id": "react-native-confirmation-code-field@1.2.2",
+  "_inBundle": false,
+  "_integrity": "sha512-jtx+zCcdlvKkBy2gO6i28JOFTbWLnADd7WWB7PGHblP6nZrta3u8i8HrhS6IVGnmpjKp2uCNQ6kxWOn2nl7zLQ==",
+  "_location": "/react-native-confirmation-code-field",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-confirmation-code-field",
+    "name": "react-native-confirmation-code-field",
+    "escapedName": "react-native-confirmation-code-field",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-confirmation-code-field/-/react-native-confirmation-code-field-1.2.2.tgz",
+  "_shasum": "f94972ce0b28b5e082276f0173cff883b17f47d6",
+  "_spec": "react-native-confirmation-code-field",
+  "_where": "/Users/macuser/Ant-Tech/Project/wrld/wrld",
+  "author": {
+    "name": "David Narbutovich",
+    "email": "vamnemne@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/retyui/react-native-confirmation-code-input/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A react-native component to input confirmation code for both Android and IOS",
+  "devDependencies": {
+    "@exeto/eslint-config": "^2.0.0",
+    "@exeto/eslint-config-react": "^3.0.0",
+    "@types/react": "^16.4.12",
+    "@types/react-native": "^0.56.15",
+    "babel-eslint": "^8.2.6",
+    "doctoc": "^1.3.1",
+    "enzyme": "^3.4.3",
+    "enzyme-adapter-react-16": "^1.2.0",
+    "eslint": "^5.4.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-flowtype": "^2.50.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-react": "^7.11.1",
+    "flow-bin": "0.75.0",
+    "husky": "^1.0.0-rc.13",
+    "jest": "^23.5.0",
+    "lint-staged": "^7.2.2",
+    "prettier": "^1.14.2",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-native": "^0.56.0"
+  },
+  "homepage": "https://github.com/retyui/react-native-confirmation-code-input#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "npm run ci"
+    }
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "react-native",
+    "react-native-component",
+    "android",
+    "ios",
+    "code-input",
+    "confirmation-code",
+    "pin-code",
+    "confirmation-code-input",
+    "pin-code-input"
+  ],
+  "license": "MIT",
+  "main": "src/components/ConfirmationCodeInput/index.js",
+  "name": "react-native-confirmation-code-field",
+  "peerDependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.4.0",
+    "react-native": "^0.55.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/retyui/react-native-confirmation-code-input.git"
+  },
+  "scripts": {
+    "ci": "npm run test & npm run flow & npm run lint",
+    "docs": "doctoc docs/API.md",
+    "flow": "flow",
+    "lint": "eslint src ./*.js",
+    "test": "jest"
+  },
+  "version": "1.2.2"
+}
